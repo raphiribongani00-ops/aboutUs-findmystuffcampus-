@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+
+}
+
+.listItems {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: auto;
+}
+
+.boxName {
+  font-size: medium;
+   font-family:UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: lighter;
+}
+
+.inputBox {
+  border-radius: 25px;
+  margin-top: 0px;
+  padding: 5px;
+  font-weight: lighter;
+  width: auto;
+}
+
+.ikeXarra {
+  justify-content: center;
+  width: auto;
+}
+
+.addHeaders {
+  font-family:UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.submitButton {
+  border-radius: 25px;
+  background-color: #0a5e56;
+  color: white;
+  border: none;
+  padding: 5px;
+}

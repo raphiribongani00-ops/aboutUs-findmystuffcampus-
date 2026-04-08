@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+
+}
+
+.firstDiv {
+  background-color: white;
+  margin-top: 0px;
+  padding-bottom: 15px;
+  background-color: #0a5e56;
+}
+
+.logo {
+  width: 150px;
+  height: 48px;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.searchBar {
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.search {
+  border-radius: 20px;
+  padding: 5px;
+  border-color: black;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid #FBBC05;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.seeItems {
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+  color: #0a5e56;
+  font-size: bold;
+  font-family:UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  border: 1px solid #FBBC05;
+  border: none;
+
+}
+
+.addItem {
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+  color: #0a5e56;
+  font-size: bold;
+  font-family:UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  color: #FBBC05;
+  transition: background-color 5s ease;
+}
+
+.div2 {
+background-color:white;
+margin-top: 0px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.slideshow-Container {
+   display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.heading1 {
+  font-family:UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: black;
+  font-size: 20px;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.stdcardPic {
+  height: 240px;
+  width: 300px;
+}
+
+.copyRigt {
+  color: white;
+  justify-content: center;
+  margin-top: 0px;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.aboutUsText {
+font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+justify-content: center;
+margin-left: 300px;
+margin-right: 300px;
+margin-top: 50px;
+}
+
+.aura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #0a5e56;
+  background-color: #0a5e56;
+  gap: 10px;
+  margin-top: 600px;
+  margin-bottom: 0px;
+  
+}
+
+.aboutUs {
+  border: none;
+  background-color: #0a5e56;
+  color: white;
+  margin-top: auto;
+  font-weight: bold;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactUs2 {
+  font-weight: bold;
+ font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ color: white;
+ margin-bottom: 0px;
+}
+
+.gmail-Icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.platForms {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.tikTok-Icon {
+  width: 37px;
+  height: 37px;
+  margin-left: 10px;
+  cursor: pointer;  
+}
